@@ -1,0 +1,122 @@
+#task1
+
+#get input from user
+# try to convert second last and second to capital letters
+
+#eg python  ===>  pYthOn
+a=input("enter a string")
+c =a[0]+a[1].upper()+a[2:-2]+a[-2].upper()+a[-1]
+print(c)
+
+--------------------------------------------------------------------------------------------
+
+
+#task2
+
+#get one string from user (eg "python")
+#get one number from user (eg 7)
+
+#o/p pythonpythonpythonpythonpythonpythonpython777777
+a=input("enter a string")
+c =a * 7
+print(c)
+d=input("enter another value")
+e =d *7
+print(d)
+output =c+e
+print(output)
+
+partb
+
+#get one string from user (eg "fire")
+#get one number from user (eg 5)
+
+#o/p firefirefirefirefire5555
+a=input("enter a string")
+c =a * 5
+print(c)
+d=input("enter another value")
+e =d * 5
+print(d)
+output =c+e
+print(output)
+-------------------------------------------------------------------------------------------------
+
+#task3
+
+#get one string from user ("python")
+#convert first letter, last letter, middle letter in to caps
+
+#op  PytHoN
+a=input("enter a string")
+b=int(len(a)/2)
+c=a[0].upper()+a[1:b]+a[b].upper()+a[b+1:-1]+a[-1].upper()
+print(c)
+
+------------------------------------------------------------------------------------------------
+#task4
+#get two strings from user (python, java)
+# convert first letter and last letter in to caps in both strings concat
+
+#PythoNJavA
+
+a=input("enter a string")
+c =a[0].upper()+a[1:-1]+a[-1].upper()
+print(c)
+d=input("enter a string")
+e =d[0].upper()+d[1:-1]+d[-1].upper()
+print(e)
+w=c+e
+print(w)
+
+------------------------------------------------------------------------------------------------
+#task5
+#mutation problem in hackerrank
+------------------------------------------------------------------------------------------------
+#task6
+#swap case in hackerrank
+
+a=input("enter a string")
+b=a.swapcase()
+print(b)
+
+for loop applicable
+------------------------------------------------------------------------------------------------
+#task7
+#capitalize
+a=input("enter the string")
+b=a.split()
+print(b)
+c=b[0].capitalize()+b[-1].capitalize()
+print(c)
+
+------------------------------------------------------------------------------------------------
+#task8
+Part a
+#get two numbers from user (3, 5)
+
+#o/p 55533333
+a=input("enter a string")
+c =a * 3
+print(c)
+d=input("enter another value")
+e =d * 5
+print(d)
+output =c+e
+print(output)
+----------------------------------------------------------------------------------------------
+#task9
+#whats your name
+
+a=input("enter first name")
+b=input("enter second name")
+c= a+b
+d= print('Hello {} {} You just delved into python'.format(a,b))
+
+
+
+
+
+
+
+
