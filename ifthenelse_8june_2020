@@ -1,0 +1,28 @@
+num = int(input("Enter a number: "))
+if (num > 3 and num <8):
+   print("Tru")
+else:
+   print("fa")
+   
+   ------
+   
+   num = int(input("Enter a number: "))
+if (num ==5):
+   print("Tru")
+else:
+   print("fa")
+   -----
+   
+   num = int(input("Enter a number: "))
+if (num % 2) == 0:
+   print("Even")
+else:
+   print("odd")
+   
+   ----------------
+   
+   num = int(input("Enter a number: "))
+if (num >= 0):
+   print("positiver")
+else:
+   print("negative")
